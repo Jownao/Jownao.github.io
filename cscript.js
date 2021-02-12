@@ -1,7 +1,10 @@
-var nome = window.prompt('Qual é o seu nome?')
-var dinheiro = 724.32
-document.write(`Vou usar um método pra deixar bonitão >>> ${dinheiro.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})}</br>`)
-document.write(`O nome do fresco que digitou no prompt é "${nome}"`)
+function idiotice(){
+    var nome = window.prompt('Qual é o seu nome?')
+    var dinheiro = 724.32
+    document.write(`Vou usar um método pra deixar bonitão >>> ${dinheiro.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})}</br>`)
+    document.write(`O nome do fresco que digitou no prompt é "${nome}"`)
+}
+
 
 function carregar(){
     var msg = window.document.getElementById('msg')
