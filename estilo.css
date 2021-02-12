@@ -19,3 +19,14 @@ body{
     text-align: center;
     padding: 8px;
 }
+h1{
+    color: red;
+}h2{
+    color:blueviolet;
+}p{
+    color: red;
+}p1{
+    color: rgb(0, 255, 21);
+}p2{
+    color: rgb(0, 255, 221);
+}
