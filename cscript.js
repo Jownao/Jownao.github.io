@@ -56,17 +56,17 @@ function verificar(){
 
         if (hora >=0 && hora < 12 ){
             //bom dia
-            img.src = 'imgs\\manha.png'
+            img.src = 'manha.png'
             var palavra = 'manhã'
             document.body.style.background = '#e1b03b'
         }else if (hora >= 12 && hora <18){
             //boa tarde
-            img.src = 'imgs\\tarde.png'
+            img.src = 'tarde.png'
             var palavra = 'tarde'
             document.body.style.background = '#d2b485'
         }else{
             //boa noite
-            img.src = 'imgs\\noite.png'
+            img.src = 'noite.png'
             var palavra = 'noite'
             document.body.style.background = '#4a6079'
         }
