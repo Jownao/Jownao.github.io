@@ -25,16 +25,14 @@ body{
 
 .section2{
     background:rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 15px;
     padding:20px;
     width:310px;
     margin-right: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
-    
-
 }
 .div2{
-    text-align: center;
+    margin-top: 1px;
     
 }
 
