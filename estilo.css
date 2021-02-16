@@ -1,11 +1,11 @@
 body{
-    background:rgb(131, 131, 255);
-    font:normal 15pt Arial;
+    background:rgb(112, 110, 110);
+    font:normal 18pt Arial;
 }header{
     color:white;
     text-align: center;
 }section{
-    background:white;
+    background:rgb(255, 255, 255);
     border-radius: 10px;
     padding:15px;
     width:500px;
@@ -17,16 +17,17 @@ body{
     font-style: italic;
 }div{
     text-align: center;
-    padding: 8px;
 }
-h1{
-    color: red;
-}h2{
-    color:blueviolet;
-}p{
-    color: red;
-}p1{
-    color: rgb(0, 255, 21);
-}p2{
-    color: rgb(0, 255, 221);
+
+.section2{
+    background:rgb(255, 255, 255);
+    border-radius: 10px;
+    padding:20px;
+    width:310px;
+    margin-left: 24cm;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
+    
+}
+.div2{
+    text-align: center;
 }
