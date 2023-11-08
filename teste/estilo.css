@@ -1,17 +1,16 @@
-body {
-    background: #ffcccc; /* Vermelho pastel para o fundo */
-    color: #333; /* Tom de cinza escuro para o texto */
-    font: normal 18pt Arial;
+body{
+    background:rgb(112, 110, 110);
+    font:normal 18pt Arial;
 }header{
     color:white;
     text-align: center;
-}section {
-    background: #ffcccc; /* Mesma cor do fundo do body */
+}section{
+    background:rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    margin-top: 8px;
+    padding:15px;
+    width:500px;
+    margin:auto;
+    margin-top:8px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
 }footer{
     color:white;
@@ -43,11 +42,12 @@ body {
     text-align: left;
 }
 
-.link {
-    background-color: #b0c4de; /* Azul pastel para os links */
-    padding: 2px;
-    color: #333; /* Tom de cinza escuro para o texto dos links */
+.link{
+    background-color:rgb(255, 255, 255);
+    padding:2px;
+    color:rgb(23, 2, 216);
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
     margin: 3px;
+    
 }
