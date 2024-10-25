@@ -117,10 +117,10 @@ a[href*="linkedin"]:hover, a[href*="github"]:hover {
 
 .skills-circle {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 65%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 200px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -132,34 +132,34 @@ a[href*="linkedin"]:hover, a[href*="github"]:hover {
     position: relative;
     width: 100%;
     height: 100%;
-    animation: rotate 15s infinite linear;
+    animation: rotate 20s infinite linear;
     transform-style: preserve-3d;
 }
 
 .circle-container span {
     position: absolute;
     transform-origin: 350px 0;
-    font-size: 14px;
-    opacity: 0.8;
+    font-size: 12px;
+    opacity: 1;
     color: #00ff99;
     text-shadow: 1px 1px 2px #000;
 }
 
-.circle-container span:nth-child(1) { transform: rotateY(0deg) translateZ(350px); }
-.circle-container span:nth-child(2) { transform: rotateY(36deg) translateZ(350px); } 
-.circle-container span:nth-child(3) { transform: rotateY(72deg) translateZ(350px); }
-.circle-container span:nth-child(4) { transform: rotateY(108deg) translateZ(350px); }
-.circle-container span:nth-child(5) { transform: rotateY(144deg) translateZ(350px); }
-.circle-container span:nth-child(6) { transform: rotateY(180deg) translateZ(350px); }
-.circle-container span:nth-child(7) { transform: rotateY(216deg) translateZ(350px); }
-.circle-container span:nth-child(8) { transform: rotateY(252deg) translateZ(350px); }
-.circle-container span:nth-child(9) { transform: rotateY(288deg) translateZ(350px); }
-.circle-container span:nth-child(10) { transform: rotateY(324deg) translateZ(350px); }
+.circle-container span:nth-child(1) { transform: rotateY(0deg) translateZ(250px); }
+.circle-container span:nth-child(2) { transform: rotateY(30deg) translateZ(250px); } 
+.circle-container span:nth-child(3) { transform: rotateY(60deg) translateZ(250px); }
+.circle-container span:nth-child(4) { transform: rotateY(90deg) translateZ(250px); }
+.circle-container span:nth-child(5) { transform: rotateY(120deg) translateZ(250px); }
+.circle-container span:nth-child(6) { transform: rotateY(150deg) translateZ(250px); }
+.circle-container span:nth-child(7) { transform: rotateY(180deg) translateZ(250px); }
+.circle-container span:nth-child(8) { transform: rotateY(210deg) translateZ(250px); }
+.circle-container span:nth-child(9) { transform: rotateY(240deg) translateZ(250px); }
+.circle-container span:nth-child(10) { transform: rotateY(270deg) translateZ(250px); }
 
 
 
 @keyframes rotate {
     from { transform: rotateY(0deg); }
-    to { transform: rotateY(360deg); }
+    to { transform: rotateY(260deg); }
 }
 
