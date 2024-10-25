@@ -69,6 +69,7 @@ footer {
 }
 
 .about-text {
+    margin-top: 57px;
     width: 40%;
     text-align: left;
 }
@@ -128,7 +129,7 @@ p, ul {
 }
 
 .about-image {
-    margin-top: 40px;
+    margin-top: 35px;
     flex: 1;
     text-align: center;
 }
