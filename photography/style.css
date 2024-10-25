@@ -1,21 +1,32 @@
 body {
-    background-color: #1a1a1a; /* Fundo escuro */
-    color: #e0e0e0; /* Texto claro */
-    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: #00ff99;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
     text-align: center;
     padding: 20px;
-    border-bottom: 1px solid #444;
+    background-color: #111;
+    width: 100%;
 }
 
 h1 {
-    color: #00ffab; /* Verde neon para o título */
-    font-size: 2.5rem;
+    font-size: 2.5em;
     margin-bottom: 10px;
+    color: #00ff99;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.highlight {
+    color: #00ff99;
+    font-weight: bold;
 }
 
 p {
@@ -27,7 +38,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
 }
 
 .banner {
@@ -39,6 +51,7 @@ p {
 
 .banner:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 255, 153, 0.8);
 }
 
 .banner img {
@@ -57,20 +70,22 @@ p {
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #111;
-    color: #777;
-    border-top: 1px solid #444;
+    color: #ccc;
+    width: 100%;
 }
 
-footer p {
-    margin: 0;
+
+footer .highlight {
+    color: #00ff99;
+    font-weight: bold;
 }
 
 
 a {
-    text-decoration: none; /* Remove o sublinhado */
-    color: #00ffab; /* Cor do link */
+    color: #00ff99;
+    text-decoration: none;
 }
 
 a:hover {
