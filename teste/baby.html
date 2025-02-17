@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renathinha meu amor</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(45deg, #080808, #802424);
+        }
+
+        .container {
+            padding: 2rem;
+            border: 3px solid #ff0000;
+            border-radius: 15px;
+            margin: 20px;
+            max-width: 600px;
+            box-shadow: 0 0 20px #ff00ff;
+        }
+
+        h1 {
+            color: #ff0000;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px #ffffff;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        .sim-btn {
+            background-color: #ff0000;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.5em;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .sim-btn:hover {
+            background-color: #ffffff;
+            color: #ff0000;
+            transform: scale(1.1);
+        }
+
+        .nao-btn {
+            position: absolute;
+            background-color: #800080;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: all 0.1s;
+        }
+
+        .link-mapa {
+            color: #ff0000;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin-top: 20px;
+            display: block;
+        }
+
+        .link-mapa:hover {
+            color: #ffffff;
+        }
+
+        .brincadeira-texto {
+            color: #ff0000;
+            font-style: italic;
+            margin: 15px 0;
+            font-size: 1.3em;
+        }
+
+        .buttons-container {
+            position: relative;
+            height: 100px;
+            width: 200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Você Está Convidada! 🎉</h1>
+        
+        <p>Minha amada, gostaria de sua presença em uma noite especial preparada especialmente para você!</p>
+        
+        <p class="brincadeira-texto">(Convite irrecusável - literalmente!)</p>
+
+        <div class="buttons-container">
+            <a href="https://youtu.be/VWRkQARH-9o" class="sim-btn" target="_blank">SIM!</a>
+            <button class="nao-btn" onclick="moverBotao()">Não</button>
+        </div>
+
+        <a href="https://youtu.be/iPVfI_Ec7y8" class="link-mapa" target="_blank">📍 Como chegar até aqui</a>
+    </div>
+
+    <script>
+        function moverBotao() {
+            const botao = document.querySelector('.nao-btn');
+            const x = Math.random() * (window.innerWidth - 100);
+            const y = Math.random() * (window.innerHeight - 50);
+            
+            botao.style.transform = `translate(${x}px, ${y}px)`;
+            botao.style.transition = 'all 0.3s';
+        }
+    </script>
+</body>
+</html>
