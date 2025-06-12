@@ -7,38 +7,58 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Feliz Dia dos Namorados, meu bem! 💖</h1>
-    
-    <img src="imagem_ghibli.jpg" alt="Nós dois, estilo Ghibli" class="imagem-romantica" />
+  <!-- Tela inicial com botão -->
+  <div id="tela-inicial">
+    <button id="entrar">Entrar na surpresa 💖</button>
+  </div>
+  <audio id="musicaFundo" src="musica_fundo.mp3" loop></audio>
+  <!-- Player oculto do YouTube -->
+  <div id="musica-player">
+    <iframe
+      id="youtube-player"
+      width="0"
+      height="0"
+      src=""
+      frameborder="0"
+      allow="autoplay"
+      allowfullscreen
+      mute = "true"
+    ></iframe>
+  </div>
 
-    <p class="mensagem">
-      Mesmo de longe, você preenche meus dias com carinho, leveza e sorrisos que só você desperta em mim.  
-      Hoje é Dia dos Namorados, e mesmo ainda não sendo oficialmente, queria te dizer o quanto eu sou feliz por ter você por perto.  
-      Você é meu bem. E isso já faz meu coração bater mais forte.  
-    </p>
+  <!-- Conteúdo da homenagem -->
+  <main id="conteudo" style="display: none;">
+    <div class="container">
+      <h1>Feliz Dia dos Namorados, meu bem! 💖</h1>
 
-    <audio id="musicaFundo" src="musica_fundo.mp3" autoplay loop></audio>
+      <img src="imagem_ghibli.jpg" alt="Nós dois, estilo Ghibli" class="imagem-romantica" />
 
-    <audio controls id="audioMensagem" class="audio-personalizado">
-    <source src="meu_bem.mp3" type="audio/mpeg" />
-    Seu navegador não suporta esse áudio.
-    </audio>
+      <p class="mensagem">
+        Mesmo de longe, você preenche meus dias com carinho, leveza e sorrisos que só você desperta em mim.  
+        Hoje é Dia dos Namorados, e mesmo ainda não sendo oficialmente, queria te dizer o quanto eu sou feliz por ter você por perto.  
+        Você é meu bem. E isso já faz meu coração bater mais forte.  
+      </p>
 
-    <div class="poesia">
-      <p>
-        "Você não precisa estar ao meu lado pra estar comigo.<br>
-        Sua lembrança me faz sorrir, seu nome me acalma, sua existência me aquece.<br>
-        Mesmo distante, você é meu lar disfarçado de pessoa." 💕
+      <audio controls id="audioMensagem" class="audio-personalizado">
+        <source src="meu_bem.mp3" type="audio/mpeg" />
+        Seu navegador não suporta esse áudio.
+      </audio>
+
+      <div class="poesia">
+        <p>
+          "Você não precisa estar ao meu lado pra estar comigo.<br>
+          Sua lembrança me faz sorrir, seu nome me acalma, sua existência me aquece.<br>
+          Mesmo distante, você é meu lar disfarçado de pessoa." 💕
+        </p>
+      </div>
+
+      <p class="assinatura">
+        Com amor,<br>
+        Johnny 💌<br>
+        12 de Junho de 2025
       </p>
     </div>
-
-    <p class="assinatura">
-      Com amor,<br>
-      Johnny 💌<br>
-      12 de Junho de 2025
-    </p>
-  </div>
+  </main>
 
   <script src="script.js"></script>
 </body>
