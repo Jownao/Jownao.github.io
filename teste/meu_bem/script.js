@@ -16,6 +16,15 @@ setInterval(criarCoracao, 500);
 const musicaFundo = document.getElementById('musicaFundo');
 const audioMensagem = document.getElementById('audioMensagem');
 
+// Começa com volume 0 (autoplay é permitido)
+musicaFundo.volume = 0;
+musicaFundo.play().then(() => {
+  // Aumenta suavemente após carregar
+  aumentarVolumeGradualmente(musicaFundo, 0.6, 8000);
+}).catch((err) => {
+  console.warn("Autoplay bloqueado:", err);
+});
+
 // Reduz o volume suavemente
 function reduzirVolumeGradualmente(audio, volumeFinal, duracao) {
   const passos = 10;
