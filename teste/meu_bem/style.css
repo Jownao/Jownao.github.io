@@ -3,7 +3,8 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(180deg, #ffe6e6, #fff);
   color: #5a2a2a;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   position: relative;
 }
 
