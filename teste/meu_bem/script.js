@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   btnEntrar.addEventListener('click', () => {
     const videoID = "vSsUDOpzYOs"; // Leonardo - É Por Você Que Canto
-    const src = `https://www.youtube.com/embed/${videoID}?autoplay=1&loop=1&playlist=${videoID}&controls=0&mute=1&showinfo=0&modestbranding=1`;
+    const src = `https://www.youtube.com/embed/${videoID}?autoplay=1&loop=1&playlist=${videoID}&controls=0&mute=0&showinfo=0&modestbranding=1`;
 
     player.src = src;
 
